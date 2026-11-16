@@ -33,9 +33,7 @@ nav {
     z-index: 100;
 }
 
-nav h2 {
-    color: white;
-}
+nav h2 { color: white; }
 
 nav a {
     color: white;
@@ -44,9 +42,7 @@ nav a {
     font-size: 14px;
 }
 
-nav a:hover {
-    color: #8ed5ff;
-}
+nav a:hover { color: #8ed5ff; }
 
 /* Hero */
 .hero {
@@ -78,9 +74,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-.hero p {
-    line-height: 2;
-}
+.hero p { line-height: 2; }
 
 .btn {
     display: inline-block;
@@ -129,9 +123,7 @@ section h2 {
 }
 
 /* Education */
-.education {
-    background: white;
-}
+.education { background: white; }
 
 .edu-card {
     max-width: 650px;
@@ -159,7 +151,7 @@ section h2 {
     font-weight: bold;
 }
 
-/* Projects */
+/* Projects - Text only */
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
@@ -168,22 +160,13 @@ section h2 {
 
 .card {
     background: white;
-    padding: 15px;
+    padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 15px #dce5ef;
     transition: 0.3s;
 }
 
-.card:hover {
-    transform: translateY(-7px);
-}
-
-.card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-}
+.card:hover { transform: translateY(-7px); }
 
 .card h3 {
     color: #17365d;
@@ -191,9 +174,7 @@ section h2 {
 }
 
 /* Certificates */
-.certificate {
-    background: #e7f2fc;
-}
+.certificate { background: #e7f2fc; }
 
 /* Contact */
 .contact {
@@ -201,9 +182,7 @@ section h2 {
     color: white;
 }
 
-.contact h2 {
-    color: white;
-}
+.contact h2 { color: white; }
 
 /* Footer */
 footer {
@@ -237,13 +216,9 @@ footer {
         gap: 25px;
     }
 
-    .hero h1 {
-        font-size: 27px;
-    }
+    .hero h1 { font-size: 27px; }
 
-    section {
-        padding: 45px 6%;
-    }
+    section { padding: 45px 6%; }
 }
 </style>
 </head>
@@ -259,6 +234,7 @@ footer {
         <a href="#education">การศึกษา</a>
         <a href="#skills">ทักษะ</a>
         <a href="#projects">ผลงาน</a>
+        <a href="#certificates">เกียรติบัตร</a>
         <a href="#contact">ติดต่อ</a>
     </div>
 </nav>
@@ -266,7 +242,8 @@ footer {
 <!-- หน้าแรก -->
 <header class="hero" id="home">
 
-    <img src="profile.jpg" alt="รูปแพรวพรรณ">
+   
+    <img src="profile.jpg" alt=>
 
     <div>
         <h3>WELCOME TO MY PORTFOLIO</h3>
@@ -334,7 +311,7 @@ footer {
 
 </section>
 
-<!-- ผลงาน -->
+<!-- ผลงาน ไม่มีรูปภาพ -->
 <section id="projects" class="education">
 
     <h2>ผลงานและกิจกรรม</h2>
@@ -343,19 +320,16 @@ footer {
     <div class="projects">
 
         <div class="card">
-            <img src="project1.jpg" alt="ผลงานเว็บไซต์">
             <h3>ผลงานเว็บไซต์</h3>
             <p>การออกแบบและพัฒนาเว็บไซต์</p>
         </div>
 
         <div class="card">
-            <img src="project2.jpg" alt="ผลงานกราฟิก">
             <h3>ผลงานออกแบบกราฟิก</h3>
             <p>การออกแบบสื่อประชาสัมพันธ์</p>
         </div>
 
         <div class="card">
-            <img src="project3.jpg" alt="ผลงานโปรแกรม">
             <h3>ผลงานด้านเทคโนโลยี</h3>
             <p>การสร้างชิ้นงานและโปรเจกต์</p>
         </div>
@@ -371,7 +345,7 @@ footer {
     <div class="section-line"></div>
 
     <p>รวบรวมเกียรติบัตรและใบรับรองจากการเข้าร่วมกิจกรรมต่าง ๆ</p>
-    <p>สามารถเพิ่มรูปเกียรติบัตรได้ในภายหลัง</p>
+    <p>สามารถเพิ่มรายละเอียดเกียรติบัตรได้ในภายหลัง</p>
 
 </section>
 
